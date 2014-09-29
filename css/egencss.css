@@ -105,13 +105,14 @@ color:#E80C3B;
 }
 
 .navbar-default .navbar-nav>.active>a {
- font-size:18px;   
+ font-size:17px;   
 }
 
 .navbar-nav>li>a {
 padding-top: 15px;
 padding-bottom: 10px;
 line-height: 40px;
+
 }
 
 
@@ -119,7 +120,7 @@ line-height: 40px;
 background:#171a21;
 }
 .navbar-default .navbar-nav>li>a {
- font-size:18px; 
+ font-size:17px; 
  color:#fff;   
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
@@ -131,50 +132,31 @@ background:#171a21;
 /* ----------- */
 /* CONTAINER  */
 
-.moviearea {
-width:40%;
-height:400px;
-background-image: linear-gradient(bottom, #171a21 88%, black 12%);
-background-image: -o-linear-gradient(bottom, #171a21 88%, black 12%);
-background-image: -moz-linear-gradient(bottom, #171a21 88%, black 12%);
-background-image: -webkit-linear-gradient(bottom, #171a21 88%, black 12%);
-background-image: -ms-linear-gradient(bottom, #171a21 88%, black 12%);
-margin: 100px auto;
-border: 1px solid white;
-
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background:#000;
 }
-
-.moviearea h1{
- margin-left:10px;
- font-size:27px;
- line-height:10px;
- font-style: oblique;
- float:left;
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
 }
-.moviearea h2 {
- float:right;
- margin-right:10px;
- font-size:27px;
- line-height:10px;
- font-style: oblique;
- color:#E80C3B;
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
 }
-
-.moviebottomarea {
-width:40%;
-height:200px;
-margin: -80px auto;
-border: 1px solid white;
-background:url('../bg.png');
-    
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
-
-.moviebottomarea img {
- margin-left: 10px;
- 
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.moviebottomarea h1{
- font-size:20px;
- margin-left:10px;
-}
-
